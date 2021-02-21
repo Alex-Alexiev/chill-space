@@ -11,19 +11,29 @@
     "@tensorflow-models/posenet": "^2.2.1",
     "@tensorflow/tfjs": "^2.8.6",
     "@tensorflow/tfjs-converter": "^1.7.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "core-js": "^3.6.5",
+    "node-p5": "^1.0.3",
     "p5": "^1.2.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.4",
+    "vue-router": "^3.5.1",
+    "vue-window-size": "^0.6.2"
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "autoprefixer": "^9.8.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "postcss": "^7.0.35",
     "sass": "^1.22.3",
     "sass-loader": "^7.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

@@ -88,7 +88,7 @@ export default {
     },
     async detectPose() {
         const imageScaleFactor = 0.5;
-        const flipHorizontal = false;
+        const flipHorizontal = true;
         const outputStride = 16;
         this.pose = await this.net.estimateSinglePose(this.$refs.video, imageScaleFactor, flipHorizontal, outputStride) 
         console.log(this.pose);
